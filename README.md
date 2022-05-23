@@ -86,7 +86,7 @@ Two stacked LSTM layers have been used with a dropout rate of 0.5. Dropout Layer
 | Dataset | Accuracy | Loss |
 | -------- | -------- | -------- |
 | Training     | 0.8257  | 0.5014     |
-| Testing     | 0.5220     | 2.5357     |
+| Testing     | 0.5220     | 1.5357     |
 
 You can listen to the predicted output music by downloading the MIDI files that have been uploaded above.
 
