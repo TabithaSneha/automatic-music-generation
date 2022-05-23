@@ -16,7 +16,7 @@ LSTMs deal with both Long Term Memory (LTM) and Short Term Memory (STM) and for 
 * **Remember Gate**: LTM information that hasn't been forgotten and the STM and Event are combined together in Remember gate which outputs a new updated LTM.
 * **Use Gate**: This gate also uses information from LTM, STM, and Event to predict the output of a newly updated STM.
 
-<img src="https://i.imgur.com/xdZnDWX.png" height="300" width="750" >
+<img src="https://i.imgur.com/xdZnDWX.png" height="300" width="550" >
 
 Image Source: Udacity
 
@@ -65,7 +65,7 @@ The dataset used consists of Classical Piano MIDI files containing compositions 
 
 Two stacked LSTM layers have been used with a dropout rate of 0.5. Dropout Layer is a regularization technique to reduce overfitting in deep learning models. A fully connected layer of size equal to the length of unique notes is used with 'softmax' activation(used for multi-class classification problems).
 
-<img src="https://i.imgur.com/p2MScHw.png" height="300" width="750" >
+<img src="https://i.imgur.com/p2MScHw.png" height="400" width="750" >
 
 | Parameters| Values| 
 | -------- | -------- | 
@@ -77,11 +77,11 @@ Two stacked LSTM layers have been used with a dropout rate of 0.5. Dropout Layer
 
 ### Plot of Accuracy vs Epochs:-
 
-<img src="https://i.imgur.com/Ovvp6yl.png" height="300" width="750" >
+<img src="https://i.imgur.com/Ovvp6yl.png" height="300" width="400" >
 
 ### Plot of Loss vs Epochs:-
 
-<img src="https://i.imgur.com/VTsgjYf.pn" height="300" width="750" >
+<img src="https://i.imgur.com/VTsgjYf.pn" height="300" width="400" >
 
 | Dataset | Accuracy | Loss |
 | -------- | -------- | -------- |
