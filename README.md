@@ -6,7 +6,7 @@ In this project, the Automatic Music Generating model has been created using Dee
 
 ## Introduction:-
 
-Long Short Term Memory(LSTM) Network is an advanced Recurrent Neural Network(RNN), a sequential network, that allows information to persist. LSTM was intoduced to solve certain drawbacks of RNN. RNNs were absolutely incapable of handling such “long-term dependencies”, ie, they failed to store information for a longer period of time. There was also no finer control over which part of the context needed to be carried forward and how much of the past needed to be ‘forgotten’. Other issues with RNNs are vanishing gradients which occur during the training process of a network through backpropagation, is taken care of by the LSTM network.
+Long Short Term Memory(LSTM) Network is an advanced Recurrent Neural Network(RNN), a sequential network, that allows information to persist. LSTM was introduced to solve certain drawbacks of RNN. RNNs were incapable of handling such “long-term dependencies”, ie, they failed to store information for a longer period of time. There was also no finer control over which part of the context needed to be carried forward and how much of the past needed to be ‘forgotten’. Other issues with RNNs are vanishing gradients which occur during the training process of a network through backpropagation, is taken care of by the LSTM network.
 
 ### Architecture of an LSTM Network:-
 
